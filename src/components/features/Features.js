@@ -14,27 +14,23 @@ const Features = () => {
       <Title title="Features" des="What I Do" />
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
-          title="Business Stratagy"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="Web development"
+          des="Web development is the creation of functional and interactive websites."
          
         />
         <Card
-          title="App Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="Graphic Design"
+          des="Graphic design is the creative use of text and images to communicate ideas visually."
           icon={<AiFillAppstore />}
         />
         <Card
-          title="SEO Optimisation"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="Video editing"
+          des="Video editing is the process of arranging and enhancing video clips to create a polished and engaging final product."
           icon={<SiProgress />}
         />
         <Card
-          title="Mobile Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="App development"
+          des="App development is the process of creating software applications for mobile or desktop devices to provide useful and interactive features."
           icon={<FaMobile />}
         />
         <Card
